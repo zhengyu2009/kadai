@@ -1,0 +1,2972 @@
+2016-12-06 14:26:20 Error: [MissingActionException] Action AppController::Users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Users',
+)
+Request URL: /app/Users
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-08 14:44:07 Error: [MissingViewException] View file "Users/confirm.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/confirm.ctp',
+)
+Request URL: /Users/confirm
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-08 14:47:16 Error: [MissingViewException] View file "Users/confirm.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/confirm.ctp',
+)
+Request URL: /Users/confirm
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-09 10:07:57 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン　セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 12:39:47 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン　セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 12:49:30 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン　セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 12:49:33 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン　セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 12:49:59 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン　セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:03:51 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:05:10 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:08:09 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:10:21 Error: Fatal Error (1): Call to undefined function set() in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 68]
+2016-12-09 14:10:21 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /Users/confirm
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 68, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 68, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-09 14:11:02 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:12:32 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:13:44 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:14:53 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:16:07 Error: ゲン セイウ
+2016-12-09 14:18:44 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:19:12 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:19:13 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:19:30 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:19:39 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:22:08 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 87]
+2016-12-09 14:22:08 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 87, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 87, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-09 14:22:22 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 87]
+2016-12-09 14:22:22 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 87, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 87, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-09 14:23:20 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:23:24 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:33 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:35 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:38 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:39 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:40 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:41 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:41 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:24:41 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:29:41 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:29:58 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:30:38 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:30:52 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:31:48 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-09 14:32:09 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:14:18 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:14:25 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:14:36 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:14:42 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:15:29 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:15:31 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:16:59 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:17:02 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:17:02 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:19:33 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:19:34 Error: CakeRequest Object
+(
+    [params] => Array
+        (
+            [plugin] => 
+            [controller] => Users
+            [action] => confirm
+            [named] => Array
+                (
+                )
+
+            [pass] => Array
+                (
+                )
+
+        )
+
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [query] => Array
+        (
+        )
+
+    [url] => Users/confirm
+    [base] => 
+    [webroot] => /
+    [here] => /Users/confirm
+    [_detectors:protected] => Array
+        (
+            [get] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => GET
+                )
+
+            [patch] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PATCH
+                )
+
+            [post] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => POST
+                )
+
+            [put] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PUT
+                )
+
+            [delete] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => DELETE
+                )
+
+            [head] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => HEAD
+                )
+
+            [options] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => OPTIONS
+                )
+
+            [ssl] => Array
+                (
+                    [env] => HTTPS
+                    [value] => 1
+                )
+
+            [ajax] => Array
+                (
+                    [env] => HTTP_X_REQUESTED_WITH
+                    [value] => XMLHttpRequest
+                )
+
+            [flash] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [pattern] => /^(Shockwave|Adobe) Flash/
+                )
+
+            [mobile] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [options] => Array
+                        (
+                            [0] => Android
+                            [1] => AvantGo
+                            [2] => BB10
+                            [3] => BlackBerry
+                            [4] => DoCoMo
+                            [5] => Fennec
+                            [6] => iPod
+                            [7] => iPhone
+                            [8] => iPad
+                            [9] => J2ME
+                            [10] => MIDP
+                            [11] => NetFront
+                            [12] => Nokia
+                            [13] => Opera Mini
+                            [14] => Opera Mobi
+                            [15] => PalmOS
+                            [16] => PalmSource
+                            [17] => portalmmm
+                            [18] => Plucker
+                            [19] => ReqwirelessWeb
+                            [20] => SonyEricsson
+                            [21] => Symbian
+                            [22] => UP\.Browser
+                            [23] => webOS
+                            [24] => Windows CE
+                            [25] => Windows Phone OS
+                            [26] => Xiino
+                        )
+
+                )
+
+            [requested] => Array
+                (
+                    [param] => requested
+                    [value] => 1
+                )
+
+            [json] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/json
+                        )
+
+                    [param] => ext
+                    [value] => json
+                )
+
+            [xml] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/xml
+                            [1] => text/xml
+                        )
+
+                    [param] => ext
+                    [value] => xml
+                )
+
+        )
+
+    [_input:protected] => 
+)
+
+2016-12-10 03:19:34 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:23:56 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:23:58 Error: CakeRequest Object
+(
+    [params] => Array
+        (
+            [plugin] => 
+            [controller] => Users
+            [action] => confirm
+            [named] => Array
+                (
+                )
+
+            [pass] => Array
+                (
+                )
+
+        )
+
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [query] => Array
+        (
+        )
+
+    [url] => Users/confirm
+    [base] => 
+    [webroot] => /
+    [here] => /Users/confirm
+    [_detectors:protected] => Array
+        (
+            [get] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => GET
+                )
+
+            [patch] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PATCH
+                )
+
+            [post] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => POST
+                )
+
+            [put] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PUT
+                )
+
+            [delete] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => DELETE
+                )
+
+            [head] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => HEAD
+                )
+
+            [options] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => OPTIONS
+                )
+
+            [ssl] => Array
+                (
+                    [env] => HTTPS
+                    [value] => 1
+                )
+
+            [ajax] => Array
+                (
+                    [env] => HTTP_X_REQUESTED_WITH
+                    [value] => XMLHttpRequest
+                )
+
+            [flash] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [pattern] => /^(Shockwave|Adobe) Flash/
+                )
+
+            [mobile] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [options] => Array
+                        (
+                            [0] => Android
+                            [1] => AvantGo
+                            [2] => BB10
+                            [3] => BlackBerry
+                            [4] => DoCoMo
+                            [5] => Fennec
+                            [6] => iPod
+                            [7] => iPhone
+                            [8] => iPad
+                            [9] => J2ME
+                            [10] => MIDP
+                            [11] => NetFront
+                            [12] => Nokia
+                            [13] => Opera Mini
+                            [14] => Opera Mobi
+                            [15] => PalmOS
+                            [16] => PalmSource
+                            [17] => portalmmm
+                            [18] => Plucker
+                            [19] => ReqwirelessWeb
+                            [20] => SonyEricsson
+                            [21] => Symbian
+                            [22] => UP\.Browser
+                            [23] => webOS
+                            [24] => Windows CE
+                            [25] => Windows Phone OS
+                            [26] => Xiino
+                        )
+
+                )
+
+            [requested] => Array
+                (
+                    [param] => requested
+                    [value] => 1
+                )
+
+            [json] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/json
+                        )
+
+                    [param] => ext
+                    [value] => json
+                )
+
+            [xml] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/xml
+                            [1] => text/xml
+                        )
+
+                    [param] => ext
+                    [value] => xml
+                )
+
+        )
+
+    [_input:protected] => 
+)
+
+2016-12-10 03:23:58 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:25:17 Error: CakeRequest Object
+(
+    [params] => Array
+        (
+            [plugin] => 
+            [controller] => Users
+            [action] => confirm
+            [named] => Array
+                (
+                )
+
+            [pass] => Array
+                (
+                )
+
+        )
+
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [query] => Array
+        (
+        )
+
+    [url] => Users/confirm
+    [base] => 
+    [webroot] => /
+    [here] => /Users/confirm
+    [_detectors:protected] => Array
+        (
+            [get] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => GET
+                )
+
+            [patch] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PATCH
+                )
+
+            [post] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => POST
+                )
+
+            [put] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PUT
+                )
+
+            [delete] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => DELETE
+                )
+
+            [head] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => HEAD
+                )
+
+            [options] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => OPTIONS
+                )
+
+            [ssl] => Array
+                (
+                    [env] => HTTPS
+                    [value] => 1
+                )
+
+            [ajax] => Array
+                (
+                    [env] => HTTP_X_REQUESTED_WITH
+                    [value] => XMLHttpRequest
+                )
+
+            [flash] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [pattern] => /^(Shockwave|Adobe) Flash/
+                )
+
+            [mobile] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [options] => Array
+                        (
+                            [0] => Android
+                            [1] => AvantGo
+                            [2] => BB10
+                            [3] => BlackBerry
+                            [4] => DoCoMo
+                            [5] => Fennec
+                            [6] => iPod
+                            [7] => iPhone
+                            [8] => iPad
+                            [9] => J2ME
+                            [10] => MIDP
+                            [11] => NetFront
+                            [12] => Nokia
+                            [13] => Opera Mini
+                            [14] => Opera Mobi
+                            [15] => PalmOS
+                            [16] => PalmSource
+                            [17] => portalmmm
+                            [18] => Plucker
+                            [19] => ReqwirelessWeb
+                            [20] => SonyEricsson
+                            [21] => Symbian
+                            [22] => UP\.Browser
+                            [23] => webOS
+                            [24] => Windows CE
+                            [25] => Windows Phone OS
+                            [26] => Xiino
+                        )
+
+                )
+
+            [requested] => Array
+                (
+                    [param] => requested
+                    [value] => 1
+                )
+
+            [json] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/json
+                        )
+
+                    [param] => ext
+                    [value] => json
+                )
+
+            [xml] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/xml
+                            [1] => text/xml
+                        )
+
+                    [param] => ext
+                    [value] => xml
+                )
+
+        )
+
+    [_input:protected] => 
+)
+
+2016-12-10 03:25:17 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:30:12 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:30:14 Error: CakeRequest Object
+(
+    [params] => Array
+        (
+            [plugin] => 
+            [controller] => Users
+            [action] => confirm
+            [named] => Array
+                (
+                )
+
+            [pass] => Array
+                (
+                )
+
+        )
+
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [query] => Array
+        (
+        )
+
+    [url] => Users/confirm
+    [base] => 
+    [webroot] => /
+    [here] => /Users/confirm
+    [_detectors:protected] => Array
+        (
+            [get] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => GET
+                )
+
+            [patch] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PATCH
+                )
+
+            [post] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => POST
+                )
+
+            [put] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => PUT
+                )
+
+            [delete] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => DELETE
+                )
+
+            [head] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => HEAD
+                )
+
+            [options] => Array
+                (
+                    [env] => REQUEST_METHOD
+                    [value] => OPTIONS
+                )
+
+            [ssl] => Array
+                (
+                    [env] => HTTPS
+                    [value] => 1
+                )
+
+            [ajax] => Array
+                (
+                    [env] => HTTP_X_REQUESTED_WITH
+                    [value] => XMLHttpRequest
+                )
+
+            [flash] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [pattern] => /^(Shockwave|Adobe) Flash/
+                )
+
+            [mobile] => Array
+                (
+                    [env] => HTTP_USER_AGENT
+                    [options] => Array
+                        (
+                            [0] => Android
+                            [1] => AvantGo
+                            [2] => BB10
+                            [3] => BlackBerry
+                            [4] => DoCoMo
+                            [5] => Fennec
+                            [6] => iPod
+                            [7] => iPhone
+                            [8] => iPad
+                            [9] => J2ME
+                            [10] => MIDP
+                            [11] => NetFront
+                            [12] => Nokia
+                            [13] => Opera Mini
+                            [14] => Opera Mobi
+                            [15] => PalmOS
+                            [16] => PalmSource
+                            [17] => portalmmm
+                            [18] => Plucker
+                            [19] => ReqwirelessWeb
+                            [20] => SonyEricsson
+                            [21] => Symbian
+                            [22] => UP\.Browser
+                            [23] => webOS
+                            [24] => Windows CE
+                            [25] => Windows Phone OS
+                            [26] => Xiino
+                        )
+
+                )
+
+            [requested] => Array
+                (
+                    [param] => requested
+                    [value] => 1
+                )
+
+            [json] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/json
+                        )
+
+                    [param] => ext
+                    [value] => json
+                )
+
+            [xml] => Array
+                (
+                    [accept] => Array
+                        (
+                            [0] => application/xml
+                            [1] => text/xml
+                        )
+
+                    [param] => ext
+                    [value] => xml
+                )
+
+        )
+
+    [_input:protected] => 
+)
+
+2016-12-10 03:30:14 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 03:35:24 Error: Fatal Error (1): Call to a member function mergedData() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2016-12-10 03:35:24 Error: [FatalErrorException] Call to a member function mergedData() on a non-object
+Request URL: /Users/confirm
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-10 04:00:41 Error: 
+2016-12-10 04:00:41 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 04:04:38 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 04:04:38 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 04:06:13 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 04:06:13 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 04:22:45 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan2@hi.com
+        )
+
+)
+
+2016-12-10 04:22:50 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan2@hi.com
+                )
+
+        )
+
+    [edit] => 修正
+)
+
+2016-12-10 04:22:50 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan2@hi.com
+        )
+
+)
+
+2016-12-10 04:23:16 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan2@hi.com
+                )
+
+        )
+
+    [edit] => 修正
+)
+
+2016-12-10 04:49:10 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan2@hi.com
+        )
+
+)
+
+2016-12-10 04:49:12 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan2@hi.com
+                )
+
+        )
+
+    [edit] => 修正
+)
+
+2016-12-10 09:01:21 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan2@hi.com
+        )
+
+)
+
+2016-12-10 09:01:22 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan2@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:01:22 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan2@hi.com
+        )
+
+)
+
+2016-12-10 09:11:54 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:11:55 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:11:55 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:12:53 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:12:53 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:13:07 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:13:09 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:14:09 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:14:11 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:14:44 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:14:46 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 09:15:40 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 09:15:42 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:23:58 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 10:24:00 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:27:50 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:27:52 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:27:53 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:29:59 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 10:30:01 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:30:01 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 10:33:11 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:33:11 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 10:33:32 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:33:33 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:33:33 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:33:33 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:33:33 Error: Array
+(
+)
+
+2016-12-10 10:36:52 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:36:53 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:36:53 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:36:53 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:36:53 Error: Array
+(
+)
+
+2016-12-10 10:43:44 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:43:46 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:43:46 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:43:46 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:43:46 Error: Array
+(
+)
+
+2016-12-10 10:44:41 Error: Array
+(
+)
+
+2016-12-10 10:45:00 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:58:33 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:58:36 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 10:58:36 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:58:36 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 10:58:37 Error: Array
+(
+)
+
+2016-12-10 11:09:22 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:09:23 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:09:24 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:12:08 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:12:09 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:12:09 Error: 
+2016-12-10 11:13:47 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:13:48 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:13:48 Error: ゲン セイウ
+2016-12-10 11:23:11 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:23:12 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:23:12 Error: ゲン セイウ
+2016-12-10 11:24:34 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-10 11:24:35 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan3@hi.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:24:35 Error: ゲン セイウ
+2016-12-10 11:24:35 Error: [SocketException] Invalid email: ""
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(592): CakeEmail->_validateEmail(Object(CakeEmail))
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(466): CakeEmail->_setEmail('_to', Object(CakeEmail), NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1267): CakeEmail->to(Object(CakeEmail))
+#3 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1148): CakeEmail->_applyConfig(Array)
+#4 /home/ubuntu/workspace/app/Controller/UsersController.php(109): CakeEmail->config(Array)
+#5 [internal function]: UsersController->thanks()
+#6 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-10 11:25:51 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:25:53 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:25:54 Error: ゲン セイウ
+2016-12-10 11:25:54 Error: [SocketException] Invalid email: ""
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(592): CakeEmail->_validateEmail(Object(CakeEmail))
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(466): CakeEmail->_setEmail('_to', Object(CakeEmail), NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1267): CakeEmail->to(Object(CakeEmail))
+#3 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1148): CakeEmail->_applyConfig(Array)
+#4 /home/ubuntu/workspace/app/Controller/UsersController.php(109): CakeEmail->config(Array)
+#5 [internal function]: UsersController->thanks()
+#6 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-10 11:28:29 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:28:30 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:28:31 Error: yan.yzy@gmail.com
+2016-12-10 11:32:37 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:32:38 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:32:39 Error: yan.yzy@gmail.com
+2016-12-10 11:32:39 Error: Fatal Error (1): Call to a member function send() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 110]
+2016-12-10 11:32:39 Error: [FatalErrorException] Call to a member function send() on a non-object
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 110)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 110, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 110, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-10 11:33:26 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:33:27 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:33:27 Error: yan.yzy@gmail.com
+2016-12-10 11:33:28 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 11:35:47 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:35:49 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:35:49 Error: yan.yzy@gmail.com
+2016-12-10 11:35:50 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 11:38:18 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:38:19 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:38:20 Error: yan.yzy@gmail.com
+2016-12-10 11:38:21 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 11:41:04 Error: Array
+(
+)
+
+2016-12-10 11:41:22 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 11:41:24 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:41:24 Error: yan.yzy@gmail.com
+2016-12-10 11:41:54 Error: [SocketException] SMTP timeout.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(149): SmtpTransport->_smtpSend(NULL, '220')
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(86): SmtpTransport->_connect()
+#2 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#3 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#4 [internal function]: UsersController->thanks()
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-12-10 11:43:08 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 11:43:09 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:43:09 Error: yan_yzy@yahoo.co.jp
+2016-12-10 11:43:39 Error: [SocketException] SMTP timeout.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(149): SmtpTransport->_smtpSend(NULL, '220')
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(86): SmtpTransport->_connect()
+#2 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#3 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#4 [internal function]: UsersController->thanks()
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-12-10 11:49:17 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 11:49:20 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:49:20 Error: yan_yzy@yahoo.co.jp
+2016-12-10 11:49:21 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 11:50:37 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 11:50:38 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 11:50:38 Error: yan_yzy@yahoo.co.jp
+2016-12-10 11:50:39 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(110): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 13:55:29 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 13:55:31 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 13:55:31 Error: yan_yzy@yahoo.co.jp
+2016-12-10 13:55:32 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(108): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 13:59:58 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 14:00:00 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 14:00:00 Error: yan_yzy@yahoo.co.jp
+2016-12-10 14:00:01 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(108): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-10 14:20:23 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-10 14:20:26 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 14:20:26 Error: yan_yzy@yahoo.co.jp
+2016-12-10 14:27:09 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-10 14:27:11 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 14:27:11 Error: zhengyu@nijigo.com
+2016-12-10 14:32:58 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan.yzy@gmail.com
+        )
+
+)
+
+2016-12-10 14:33:00 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-10 14:33:01 Error: yan.yzy@gmail.com
+2016-12-10 14:33:02 Error: [SocketException] SMTP server did not accept the password.
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Network/Email/SmtpTransport.php(87): SmtpTransport->_auth()
+#1 /home/ubuntu/workspace/lib/Cake/Network/Email/CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#2 /home/ubuntu/workspace/app/Controller/UsersController.php(108): CakeEmail->send()
+#3 [internal function]: UsersController->thanks()
+#4 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /home/ubuntu/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-12-11 01:35:28 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:35:29 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:35:29 Error: zhengyu@nijigo.com
+2016-12-11 01:35:29 Error: Fatal Error (1): Call to a member function send() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 109]
+2016-12-11 01:35:29 Error: [FatalErrorException] Call to a member function send() on a non-object
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-11 01:38:23 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:38:24 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:38:24 Error: zhengyu@nijigo.com
+2016-12-11 01:38:24 Error: Fatal Error (1): Call to a member function send() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 109]
+2016-12-11 01:38:24 Error: [FatalErrorException] Call to a member function send() on a non-object
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-11 01:39:12 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:39:12 Error: Array
+(
+    [save] => 完了
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:39:24 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:39:26 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:39:27 Error: zhengyu@nijigo.com
+2016-12-11 01:39:27 Error: Fatal Error (1): Call to a member function send() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 109]
+2016-12-11 01:39:27 Error: [FatalErrorException] Call to a member function send() on a non-object
+Request URL: /Users/thanks
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-11 01:39:59 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:40:01 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:40:01 Error: zhengyu@nijigo.com
+2016-12-11 01:46:45 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => zhengyu@nijigo.com
+        )
+
+)
+
+2016-12-11 01:46:46 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 01:46:46 Error: zhengyu@nijigo.com
+2016-12-11 02:03:53 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan3@hi.com
+        )
+
+)
+
+2016-12-11 08:47:43 Error: Array
+(
+    [User] => Array
+        (
+            [name] => ゲン セイウ
+            [email] => yan_yzy@yahoo.co.jp
+        )
+
+)
+
+2016-12-11 09:03:31 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [edit] => 修正
+)
+
+2016-12-11 09:03:56 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [edit] => 修正
+)
+
+2016-12-11 09:04:16 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan_yzy@yahoo.co.jp
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 09:04:16 Error: yan_yzy@yahoo.co.jp
+2016-12-11 09:06:21 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-11 09:06:22 Error: zhengyu@nijigo.com
+2016-12-12 02:25:10 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-12 02:25:11 Error: yan.yzy@gmail.com
+2016-12-12 02:30:17 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => yan.yzy@gmail.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-12 02:30:18 Error: yan.yzy@gmail.com
+2016-12-12 02:33:12 Error: Array
+(
+    [_method] => POST
+    [data] => Array
+        (
+            [User] => Array
+                (
+                    [name] => ゲン セイウ
+                    [email] => zhengyu@nijigo.com
+                )
+
+        )
+
+    [save] => 完了
+)
+
+2016-12-12 02:33:12 Error: zhengyu@nijigo.com

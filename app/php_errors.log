@@ -1,0 +1,66 @@
+[09-Dec-2016 14:10:21 UTC] PHP Fatal error:  Call to undefined function set() in /home/ubuntu/workspace/app/Controller/UsersController.php on line 68
+[09-Dec-2016 14:10:21 UTC] PHP Stack trace:
+[09-Dec-2016 14:10:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[09-Dec-2016 14:10:21 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[09-Dec-2016 14:10:21 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[09-Dec-2016 14:10:21 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[09-Dec-2016 14:10:21 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[09-Dec-2016 14:10:21 UTC] PHP   6. UsersController->confirm() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[09-Dec-2016 14:22:08 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/app/Controller/UsersController.php on line 87
+[09-Dec-2016 14:22:08 UTC] PHP Stack trace:
+[09-Dec-2016 14:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[09-Dec-2016 14:22:08 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[09-Dec-2016 14:22:08 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:158
+[09-Dec-2016 14:22:08 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:235
+[09-Dec-2016 14:22:08 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[09-Dec-2016 14:22:08 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[09-Dec-2016 14:22:08 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[09-Dec-2016 14:22:22 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/app/Controller/UsersController.php on line 87
+[09-Dec-2016 14:22:22 UTC] PHP Stack trace:
+[09-Dec-2016 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[09-Dec-2016 14:22:22 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[09-Dec-2016 14:22:22 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:158
+[09-Dec-2016 14:22:22 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:235
+[09-Dec-2016 14:22:22 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[09-Dec-2016 14:22:22 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[09-Dec-2016 14:22:22 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[10-Dec-2016 03:35:24 UTC] PHP Fatal error:  Call to a member function mergedData() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 71
+[10-Dec-2016 03:35:24 UTC] PHP Stack trace:
+[10-Dec-2016 03:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[10-Dec-2016 03:35:24 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[10-Dec-2016 03:35:24 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[10-Dec-2016 03:35:24 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[10-Dec-2016 03:35:24 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[10-Dec-2016 03:35:24 UTC] PHP   6. UsersController->confirm() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[10-Dec-2016 11:32:39 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 110
+[10-Dec-2016 11:32:39 UTC] PHP Stack trace:
+[10-Dec-2016 11:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[10-Dec-2016 11:32:39 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[10-Dec-2016 11:32:39 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[10-Dec-2016 11:32:39 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[10-Dec-2016 11:32:39 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[10-Dec-2016 11:32:39 UTC] PHP   6. UsersController->thanks() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:35:29 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 109
+[11-Dec-2016 01:35:29 UTC] PHP Stack trace:
+[11-Dec-2016 01:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[11-Dec-2016 01:35:29 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[11-Dec-2016 01:35:29 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[11-Dec-2016 01:35:29 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[11-Dec-2016 01:35:29 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:35:29 UTC] PHP   6. UsersController->thanks() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:38:24 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 109
+[11-Dec-2016 01:38:24 UTC] PHP Stack trace:
+[11-Dec-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[11-Dec-2016 01:38:24 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[11-Dec-2016 01:38:24 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[11-Dec-2016 01:38:24 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[11-Dec-2016 01:38:24 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:38:24 UTC] PHP   6. UsersController->thanks() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:39:27 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 109
+[11-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[11-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[11-Dec-2016 01:39:27 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:111
+[11-Dec-2016 01:39:27 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[11-Dec-2016 01:39:27 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[11-Dec-2016 01:39:27 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
+[11-Dec-2016 01:39:27 UTC] PHP   6. UsersController->thanks() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:491
